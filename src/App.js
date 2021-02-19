@@ -1,20 +1,12 @@
-
-import { Route } from 'react-router-dom';
-import classes from './App.module.css';
-import NavigationBar from './Components/NavigationBar/NavigationBar';
-
+import React from 'react';
 import {BrowserRouter} from 'react-router-dom';
-import Home from './Containers/Home/Home';
+
+import Layout from './Components/Layout/Layout';
 
 function App() {
   return (
     <BrowserRouter>
-    <div className={classes.App}>
-      <header>
-        <NavigationBar />
-      </header>
-      <Route exact path="/" component={Home}/>
-    </div>
+      <Layout />
     </BrowserRouter>
   );
 }

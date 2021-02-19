@@ -7,7 +7,6 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import { FormControl } from 'react-bootstrap';
 
 import Products from '../../Components/Products/Products';
-import Footer from '../../Components/Footer/Footer';
 
 const Home = props => {
     return (
@@ -31,7 +30,6 @@ const Home = props => {
             </Jumbotron>
         </Container>
         <Products />
-        <Footer />
         </>
     );
 }
