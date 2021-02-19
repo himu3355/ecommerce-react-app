@@ -10,14 +10,14 @@ const Products = (props) => {
         <Container>
             <Row>
                 <Product
-                 favourite 
+                 favourite={true} 
                  productName="Product Name" />
                 <Product
                  productName="Product Name" />
                 <Product 
                  productName="Product Name" />
                 <Product
-                 favourite 
+                 favourite={true}
                  productName="Product Name" />
             </Row>
         </Container>
