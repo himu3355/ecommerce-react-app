@@ -21,7 +21,7 @@ const NavigationBar = (props) => {
                 <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <NavDropdown inline title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown inline="true" title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#">Profile</NavDropdown.Item>
                 <NavDropdown.Item href="#">Satting</NavDropdown.Item>
                 <NavDropdown.Divider />

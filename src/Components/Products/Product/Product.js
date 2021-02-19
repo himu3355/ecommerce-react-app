@@ -17,7 +17,7 @@ const Product = (props) => {
     return (
         <Col lg={4}>
             <Card className="mb-5">
-                <CardOptions><FontAwesomeIcon icon={(props.favourite ? faHeart : farHeart )} /></CardOptions>
+                <CardOptions><FontAwesomeIcon icon={props.favourite ? faHeart : farHeart} /></CardOptions>
                 <Card.Img variant="top" src="https://picsum.photos/180/100" />
                 <Card.Body>
                     <Card.Title>{props.productName}</Card.Title>
