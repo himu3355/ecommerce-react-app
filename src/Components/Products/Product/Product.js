@@ -18,12 +18,11 @@ const Product = (props) => {
         <Col lg={4}>
             <Card className="mb-5">
                 <CardOptions><FontAwesomeIcon icon={props.favourite ? faHeart : farHeart} /></CardOptions>
-                <Card.Img variant="top" src="https://picsum.photos/180/100" />
+                <Card.Img variant="top" src={props.image} />
                 <Card.Body>
                     <Card.Title>{props.productName}</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        {props.productDesc}
                     </Card.Text>
                     <Button variant="primary">Add To Cart</Button>
                 </Card.Body>
