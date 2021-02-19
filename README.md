@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### styling with bootstrap
+
+https://react-bootstrap.github.io/getting-started/introduction/
+
+### FontAwesomeIcon
+
+https://fontawesome.com/how-to-use/on-the-web/using-with/react
+
+Installed
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+
+npm install --save @fortawesome/free-regular-svg-icons
